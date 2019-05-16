@@ -52,8 +52,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Channel.cs" />
+    <Compile Include="Channels\AnalogMedia.cs" />
+    <Compile Include="Channels\AtscMedia.cs" />
+    <Compile Include="Channels\DvbtMedia.cs" />
+    <Compile Include="Channels\PlaylistMedia.cs" />
+    <Compile Include="Channels\RogersWebChannel.cs" />
     <Compile Include="IMediaPlayer.cs" />
     <Compile Include="IMediaPlayerPlugin.cs" />
+    <Compile Include="Channels\IptvMedia.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
