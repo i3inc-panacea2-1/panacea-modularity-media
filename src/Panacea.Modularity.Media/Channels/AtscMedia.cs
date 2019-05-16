@@ -1,7 +1,7 @@
 ﻿
 namespace Panacea.Modularity.Media.Channels
 {
-    public class AtscMedia : Media
+    public class AtscMedia : MediaItem
     {
         public int Physical { get; set; }
         public int Major { get; set; }

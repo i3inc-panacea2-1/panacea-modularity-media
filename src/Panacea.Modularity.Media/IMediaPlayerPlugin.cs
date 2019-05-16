@@ -16,7 +16,7 @@ namespace Panacea.Modularity.Media
 
         bool CanPlayChannel(object channel);
 
-        void Play(Media channel);
+        void Play(MediaItem channel);
 
         bool HasMoreChapters();
 

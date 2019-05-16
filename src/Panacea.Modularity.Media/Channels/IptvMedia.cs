@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Panacea.Modularity.Media.Channels
 {
-    public class IptvMedia : Media
+    public class IptvMedia : MediaItem
     {
         public string URL { get; set; }
 

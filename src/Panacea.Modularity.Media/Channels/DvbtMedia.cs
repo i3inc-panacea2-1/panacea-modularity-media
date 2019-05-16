@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Panacea.Modularity.Media.Channels
 {
-    public class DvbtMedia : Media
+    public class DvbtMedia : MediaItem
     {
         public int Frequency { get; set; }
         public int Bandwidth { get; set; }

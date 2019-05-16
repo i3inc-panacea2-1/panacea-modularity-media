@@ -3,7 +3,7 @@
 
 namespace Panacea.Modularity.Media
 {
-    public abstract class Media : ServerItem
+    public abstract class MediaItem : ServerItem
     {
         public abstract string GetMRL();
 

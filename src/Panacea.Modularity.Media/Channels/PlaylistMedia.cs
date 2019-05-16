@@ -1,15 +1,15 @@
 ﻿
 namespace Panacea.Modularity.Media.Channels
 {
-    public class PlaylistMedia : Media
+    public class PlaylistMedia : MediaItem
     {
         public int Index { get; set; }
-        public PlaylistMedia(params Media[] channels)
+        public PlaylistMedia(params MediaItem[] channels)
         {
             _channels = channels;
         }
 
-        Media[] _channels;
+        MediaItem[] _channels;
 
         public bool Next()
         {

@@ -1,7 +1,7 @@
 ﻿
 namespace Panacea.Modularity.Media.Channels
 {
-    public class RogersWebMedia : Media
+    public class RogersWebMedia : MediaItem
     {
         public string URL { get; set; }
 

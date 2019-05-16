@@ -1,7 +1,7 @@
 ﻿
 namespace Panacea.Modularity.Media.Channels
 {
-    public class AnalogMedia : Media
+    public class AnalogMedia : MediaItem
     {
         public int ChannelNumber { get; set; }
         public string CountryCode { get; set; }
