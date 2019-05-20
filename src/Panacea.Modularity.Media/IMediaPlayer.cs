@@ -31,6 +31,14 @@ namespace Panacea.Modularity.Media
 
         event EventHandler IsPausableChanged;
 
+        TimeSpan Duration { get; }
+
+        event EventHandler<TimeSpan> DurationChanged;
+
+        bool HasSubtitles { get; }
+
+        event EventHandler<bool> HasSubtitlesChanged;
+
         void Next();
 
         void Previous();
@@ -50,15 +58,5 @@ namespace Panacea.Modularity.Media
         event EventHandler<Exception> Error;
 
         void SetSubtitles(bool on);
-
-        bool HasSubtitles { get; }
-        event EventHandler<bool> HasSubtitlesChanged;
-
-        
-
-        TimeSpan Duration { get; }
-
-        event EventHandler<TimeSpan> DurationChanged;
-
     }
 }
