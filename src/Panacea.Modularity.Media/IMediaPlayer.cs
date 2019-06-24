@@ -29,7 +29,7 @@ namespace Panacea.Modularity.Media
 
         bool IsPausable { get; }
 
-        event EventHandler IsPausableChanged;
+        event EventHandler<bool> IsPausableChanged;
 
         TimeSpan Duration { get; }
 
