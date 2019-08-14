@@ -9,9 +9,9 @@ namespace Panacea.Modularity.Media
 {
     public interface IMediaPlayer
     {
-        FrameworkElement VideoControl { get; }
+        bool CanPlayChannel(MediaItem channel);
 
-        bool CanPlayChannel(object channel);
+        FrameworkElement VideoControl { get; }
 
         Task Play(MediaItem channel);
 

@@ -8,8 +8,10 @@ using System.Windows;
 
 namespace Panacea.Modularity.Media
 {
-    public interface IMediaPlayerPlugin : IPlugin, IMediaPlayer
+    public interface IMediaPlayerPlugin : IPlugin
     {
+        
+
         IMediaPlayer GetMediaPlayer();
 
     }
