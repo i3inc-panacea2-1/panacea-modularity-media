@@ -9,6 +9,14 @@ namespace Panacea.Modularity.Media
 {
     public interface IMediaPlayer
     {
+        FrameworkElement VideoControl { get; }
+
+        bool CanPlayChannel(object channel);
+
+        Task Play(MediaItem channel);
+
+        bool HasMoreChapters();
+
         bool IsSeekable { get; }
 
         event EventHandler<bool> IsSeekableChanged;

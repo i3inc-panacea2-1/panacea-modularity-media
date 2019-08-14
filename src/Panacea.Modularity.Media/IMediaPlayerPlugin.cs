@@ -10,15 +10,7 @@ namespace Panacea.Modularity.Media
 {
     public interface IMediaPlayerPlugin : IPlugin, IMediaPlayer
     {
-        event EventHandler Click;
-
-        FrameworkElement VideoControl { get; }
-
-        bool CanPlayChannel(object channel);
-
-        void Play(MediaItem channel);
-
-        bool HasMoreChapters();
+        IMediaPlayer GetMediaPlayer();
 
     }
 }
