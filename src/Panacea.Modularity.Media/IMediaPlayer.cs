@@ -43,7 +43,7 @@ namespace Panacea.Modularity.Media
 
         void Previous();
 
-        Task Play();
+        void Play();
 
         void Stop();
 
